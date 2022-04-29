@@ -1,0 +1,10 @@
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\bin\Debug\netcoreapp3.1\Feedbacks.Model.deps.json
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\bin\Debug\netcoreapp3.1\Feedbacks.Model.dll
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\bin\Debug\netcoreapp3.1\Feedbacks.Model.pdb
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.AssemblyInfoInputs.cache
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.AssemblyInfo.cs
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.csproj.CoreCompileInputs.cache
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.dll
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.pdb
+D:\Case Study\Microservice\Feedbacks\Feedbacks.Model\obj\Debug\netcoreapp3.1\Feedbacks.Model.csproj.AssemblyReference.cache
