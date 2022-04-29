@@ -1,0 +1,101 @@
+--Manager DB
+
+CREATE TABLE Manager (
+id int IDENTITY(1,1) PRIMARY KEY,
+[name] varchar(255),
+[contactno] varchar(20),
+projectid varchar(255),
+[address] varchar(250),
+[role] varchar(250)
+)
+
+--Feedback DB
+
+CREATE TABLE Category (
+CategoryId int IDENTITY(1,1) PRIMARY KEY,
+CategoryName varchar(255)
+)
+CREATE TABLE Questions (
+QuestionId int IDENTITY(1,1) PRIMARY KEY,
+Question nvarchar(max),
+CategoryId int FOREIGN KEY REFERENCES Category(CategoryId)
+)
+CREATE TABLE FeedBack (
+FeedBackId int IDENTITY(1,1) PRIMARY KEY,
+Feedback nvarchar(max),
+Rating int,
+EmpId int,
+QuestionId int FOREIGN KEY REFERENCES Questions(QuestionId)
+)
+
+ CREATE TABLE Review(
+  reviewId int IDENTITY(1,1) PRIMARY KEY,
+  [Question]  nvarchar(max),
+  Feedbacks nvarchar(max),
+  Rating int,
+  EmpId int
+  )
+
+--Employee DB
+
+CREATE TABLE Employee(
+id int IDENTITY(1,1) PRIMARY KEY,
+[name] varchar(255),
+[contactno] varchar(20),
+projectid varchar(255),
+[address] varchar(250),
+[role] varchar(250)
+)
+
+--UserManagement DB
+
+CREATE TABLE [dbo].[Users](
+	[id] [int] IDENTITY(1,1) PRIMARY KEY,
+	[email] [nvarchar](50),
+	[password] [nvarchar](50),
+	[role] [nvarchar](100)
+)
+
+--Stored Procedures in UserManagement DB
+
+1. For Update Password
+Create Proc [dbo].[sp_changepassword]
+@email nvarchar(100),
+@CurrentPassword nvarchar(100),
+@NewPassword nvarchar(100)
+as
+Begin
+ if(Exists(Select Id from dbo.Users 
+     where email = @email
+     and [password] = @CurrentPassword))
+ Begin
+  Update dbo.Users
+  Set [password] = @NewPassword
+  where email = @email
+  
+  Select 1 as IsPasswordChanged
+ End
+ Else
+ Begin
+  Select 0 as IsPasswordChanged
+ End
+End
+GO
+
+2. Login User
+
+Create procedure [dbo].[sp_users]
+(
+@email nvarchar(50), @password nvarchar(50)
+)
+as
+begin
+declare @isTrue bit = 0
+if exists(
+
+select id from [dbo].Users where email=@email and password=@password
+)
+set @isTrue = 1;
+select @isTrue as result
+end;
+GO
