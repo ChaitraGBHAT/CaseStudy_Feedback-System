@@ -1,0 +1,10 @@
+D:\Case Study\Microservice\Employee\Employee.Model\bin\Debug\netcoreapp3.1\Employee.Model.deps.json
+D:\Case Study\Microservice\Employee\Employee.Model\bin\Debug\netcoreapp3.1\Employee.Model.dll
+D:\Case Study\Microservice\Employee\Employee.Model\bin\Debug\netcoreapp3.1\Employee.Model.pdb
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.csproj.AssemblyReference.cache
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.AssemblyInfoInputs.cache
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.AssemblyInfo.cs
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.csproj.CoreCompileInputs.cache
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.dll
+D:\Case Study\Microservice\Employee\Employee.Model\obj\Debug\netcoreapp3.1\Employee.Model.pdb
