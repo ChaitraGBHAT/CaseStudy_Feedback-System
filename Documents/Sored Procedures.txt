@@ -1,0 +1,43 @@
+Stored Procedures
+
+1. For Update Password
+Create Proc [dbo].[sp_changepassword]
+@email nvarchar(100),
+@CurrentPassword nvarchar(100),
+@NewPassword nvarchar(100)
+as
+Begin
+ if(Exists(Select Id from dbo.Users 
+     where email = @email
+     and [password] = @CurrentPassword))
+ Begin
+  Update dbo.Users
+  Set [password] = @NewPassword
+  where email = @email
+  
+  Select 1 as IsPasswordChanged
+ End
+ Else
+ Begin
+  Select 0 as IsPasswordChanged
+ End
+End
+GO
+
+2. Login User
+
+Create procedure [dbo].[sp_users]
+(
+@email nvarchar(50), @password nvarchar(50)
+)
+as
+begin
+declare @isTrue bit = 0
+if exists(
+
+select id from [dbo].Users where email=@email and password=@password
+)
+set @isTrue = 1;
+select @isTrue as result
+end;
+GO
