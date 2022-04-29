@@ -1,0 +1,10 @@
+D:\Case Study\Microservice\User Management\UserManagement.Models\bin\Debug\netcoreapp3.1\UserManagement.Models.deps.json
+D:\Case Study\Microservice\User Management\UserManagement.Models\bin\Debug\netcoreapp3.1\UserManagement.Models.dll
+D:\Case Study\Microservice\User Management\UserManagement.Models\bin\Debug\netcoreapp3.1\UserManagement.Models.pdb
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.AssemblyInfoInputs.cache
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.AssemblyInfo.cs
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.csproj.CoreCompileInputs.cache
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.dll
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.pdb
+D:\Case Study\Microservice\User Management\UserManagement.Models\obj\Debug\netcoreapp3.1\UserManagement.Models.csproj.AssemblyReference.cache
